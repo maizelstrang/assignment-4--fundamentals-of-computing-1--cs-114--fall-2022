@@ -1,7 +1,12 @@
-final int width = 500;
-final int height = 500;
+final int WIDTH = 500;
+final int HEIGHT = 500;
+final int[][] BOARD = new int[3][3];
 
-final int centerCol1 = 83.33;
-final int centerCol2 = 249.99;
-final int centerCol3 = 416.65;
-final int circleHeight = 166.66;
+final float CELLWIDTH = WIDTH / 3; 
+final float CELLHEIGHT = HEIGHT / 3;
+
+final float xsize = CELLWIDTH / 4;
+
+final int emptyCell = 0;
+final int compCell = 1;
+final int playerCell = 2;

@@ -1,7 +1,11 @@
 void setup() {
   size(500, 500);
+  startEmpty();
 }
 
 void draw() {
-createBoard();
+  background(191);
+  createBoard();
+  computerMove();
+  playerMove();
 }
